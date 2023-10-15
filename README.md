@@ -1,45 +1,40 @@
 <p align="center">
-      <img src="https://i.ibb.co/LrhTsW0/logo.png" width="500">
+      <img src="https://i.ibb.co/LrhTsW0/logo.png" width="400">
 </p>
 
 <p align="center">
    <img src="https://img.shields.io/badge/Engine-Pygame_2.5.0-blueviolet" alt="Engine">
-   <img src="https://img.shields.io/badge/Game_Version-b01.07.23-blue" alt="Game Version">
+   <img src="https://img.shields.io/badge/Game_Version-b01.15.10-blue" alt="Game Version">
    <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
 </p>
 
 ## About
 
-The project is designed to simulate the physical problems of celestial bodies or just for fun. The simulator is not authentic and realistic, you can simulate different situations that you are able to think up yourself. Planet Simulator is just a sandbox game where you entertain yourself! 
+This project is designed as a level editor/creator for a further project about Tanks. At the moment, this editor is being developed and finalized, it may have many flaws and bugs.
 
 ## Documentation
 
 ### Download and Play
-- **-** You can go to the download site ([GitHub](https://github.com/kaiewski/planet-simulator) or [Itch.io](https://kaiewski.itch.io/planet-simulator)) and download the archive with the game, unzip it into the folder you want. Then you should go to the folder with the name **`Planet Sim`** and find the **`.exe`** file and enjoy the simulation!
+- **-** You can go to the download site [GitHub](https://github.com/kaiewski/tank-creator) and download the archive with the game, unzip it into the folder you want. Then you should go to the folder with the name **`Creator`** and find the **`.exe`** file to open.
 
 ### Camera controls
-- **-** Press **`Q`** and aim to the object to capture it with the camera.
-- **-** You can also change the captured object with the **`Left`** and **`Right`** keys.
-- **-** Tap **`Space`** to disconnect from the object of observation.
 - **-** Press **`Mouse Wheel`** to move around the map.
 
-### Spawn objects
-- **-** Click **`Left Mouse Button`** to spawn a `single` object linked to the left mouse button.
-- **-** Press **`E`** to spawn a `many` objects linked to the left mouse button.
-- **-** Click **`Right Mouse Button`** to spawn a `single` object linked to the right mouse button.
-- **-** Press **`R`** to spawn a `many` objects linked to the right mouse button.
+### Tiles
+- **-** Click **`Left Mouse Button`** on the map to place the selected tile/s `(it will be displayed as a cursor)`.
+- **-** Click **`Right Mouse Button`** to **`delete`** selected tile.
+- **-** You can **`rotate`** tiles by pressing **`R`** on your keyboard.
+- **-** Press **`Ctrl`** to select a **tile**, it can be selected by clicking on a tile in `left menu` or directly on a block `on the map`.
 
-### Time simulation
-- **-** Scroll to **`Mouse Wheel Up`** to increase the speed of the simulation.
-- **-** Scroll to **`Mouse Wheel Down`** to decrease the speed of the simulation.
-- **-** If you hold down the **`Ctrl key`**, you can change the time by `~10 units~`, and if you hold down the `Shift key`, you can change the time by `~100 units~`.
-- **-** If you want to change an object's parameters, you can click on the icon on the left and a list will open where you can change values.
-  
+### Save/Load level
+
+- **-** To **`save`** level, press **`S`** on your keyboard. It save level to file with directory `saves/saved_level`.
+- **-** To **`load created`** level, you should move your level to the `saves/` folder, the filename should be "saved_level" with `no extension`.
+- **-** To **`load new`** level, you should ```delete or move or rename``` file with name `saved_level` and restart executable file.   
+
 ## Distribute
 
-- `Download the latest version on` [GitHub](https://github.com/kaiewski/planet-simulator)
-- `Download the latest version on` [Itch.io](https://kaiewski.itch.io/planet-simulator)
-
+- `Download the latest version on` [GitHub](https://github.com/kaiewski/tank-creator)
 
 ## Developers
 
@@ -47,4 +42,4 @@ The project is designed to simulate the physical problems of celestial bodies or
 
 ## License
 
-Planet Simulator by kaiewski is distributed under the MIT license.
+Tank Creator is distributed under the MIT license.
