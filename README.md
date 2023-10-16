@@ -15,7 +15,7 @@ This project is designed as a level editor/creator for a further project about T
 ## Documentation
 
 ### Download and Play
-- **-** You can go to the download site [GitHub](https://github.com/kaiewski/tank-creator) and download the archive with the game, unzip it into the folder you want. Then you should go to the folder with the name **`Creator`** and find the **`.exe`** file to open.
+- **-** You can go to the download site [GitHub](https://github.com/kaiewski/tank-creator) and download the archive with the game, unzip it into the folder you want. Then you should find the **`.exe`** file to open.
 
 ### Camera controls
 - **-** Press **`Mouse Wheel`** to move around the map.
